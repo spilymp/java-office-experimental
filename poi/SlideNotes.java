@@ -1,3 +1,5 @@
+package examples;
+
 import org.apache.poi.xslf.usermodel.*;
 
 import java.io.FileOutputStream;
@@ -6,12 +8,13 @@ import java.io.OutputStream;
 
 /**
  * Example to add notes to a slide using Apache POI (XSLF).
+ * Used apache poi version: 3.12
  *
  * @author spilymp
  */
 public class SlideNotes {
 
-    private static final String path = System.getProperty("user.home") + "/documents/";
+    private String path = System.getProperty("user.home") + "/documents/";
 
     public void addNoteToPPTX() {
 
