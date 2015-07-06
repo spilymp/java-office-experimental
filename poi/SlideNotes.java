@@ -14,9 +14,9 @@ import java.io.OutputStream;
  */
 public class SlideNotes {
 
-    private String path = System.getProperty("user.home") + "/documents/";
+    private static final String path = System.getProperty("user.home") + "/documents/";
 
-    public void addNoteToPPTX() {
+    public static void main(String[] args) {
 
         // create a new empty slide show
         XMLSlideShow pptx = new XMLSlideShow();
