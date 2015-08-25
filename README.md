@@ -1,4 +1,4 @@
-pptx-tests
+java-office-experimental
 ======================
 
-test repository for pptx creation with apache poi and docx4j
+This is a test repository for office file creation in java using apache poi and docx4j.
