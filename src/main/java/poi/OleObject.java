@@ -1,4 +1,4 @@
-package examples;
+package poi;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.opc.*;

@@ -1,4 +1,4 @@
-package examples;
+package poi;
 
 import org.apache.poi.xslf.usermodel.*;
 
